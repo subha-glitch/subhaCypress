@@ -47,9 +47,6 @@ describe('Check something for something', () => {
                 function areTheySame(sm) {
                     //can put array elements in a HashSet
                     let same = new Set(sm);
-
-                    // When elements are same, size of
-                    // HashSet should be 1. As HashSet contains only distinct values.
                     return (same.size == 1);
                 }
                 let sm = text;
